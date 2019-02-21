@@ -1,0 +1,13 @@
+spring:
+  profiles:
+    active: dev
+  aop:
+    proxy-target-class: true
+    auto: true
+
+# Pagehelper
+pagehelper:
+  helperDialect: mysql
+  reasonable: true
+  supportMethodsArguments: true
+  params: count=countSql
