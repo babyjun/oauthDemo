@@ -1,4 +1,4 @@
-package controller.TestEndpoint;
+package com.john.oauthDemo.controller;
 
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class TestEndpoint {
+public class TestEndpointController {
 
   @GetMapping("/product/{id}")
   public String getProduct(@PathVariable String id) {

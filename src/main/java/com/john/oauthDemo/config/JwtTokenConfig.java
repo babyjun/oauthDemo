@@ -1,6 +1,6 @@
-package controller.TestEndpoint.config;
+package com.john.oauthDemo.config;
 
-import controller.TestEndpoint.handler.JwtTokenEnhancer;
+import com.john.oauthDemo.handler.JwtTokenEnhancer;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.oauth2.provider.token.TokenEnhancer;

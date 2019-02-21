@@ -1,4 +1,4 @@
-package controller.TestEndpoint.handler;
+package com.john.oauthDemo.handler;
 
 import java.util.ArrayList;
 import java.util.Collection;

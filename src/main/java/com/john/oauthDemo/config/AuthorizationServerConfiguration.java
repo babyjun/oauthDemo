@@ -1,8 +1,6 @@
-package controller.TestEndpoint.config;
+package com.john.oauthDemo.config;
 
-import controller.TestEndpoint.handler.JwtTokenEnhancer;
-import controller.TestEndpoint.handler.MyRedisTokenStore;
-import controller.TestEndpoint.service.MyUserDetailsService;
+import com.john.oauthDemo.service.MyUserDetailsService;
 import java.util.ArrayList;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
